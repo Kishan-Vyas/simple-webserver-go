@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stylish Web Server</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Hello World</h1>    
-    <p>This is a simple web server</p>
-    <a href="/form">Form</a>
+<body style="background-color: black;">
+    <div class="container" style="background-color: black;">
+        <!-- Hero Section -->
+        <div class="hero" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInDown">Go Web Server</h1>
+                <p class="animate__animated animate__fadeInUp">This is a simple web server written in Go.</p>
+                <a href="/form.html" class="btn btn-primary animate__animated animate__fadeIn">Get Started</a>
+            </div>
+            <div class="cube-container " style="opacity: 0.5;">
+                <div class="cube">
+                    <img class="face front" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*i2skbfmDsHayHhqPfwt6pA.png"></img>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png" class="face back"></img>
+                    <img src="https://crowdforthink.com/assets/uploads/blogs/582d8348873b7e0fdfaa78320dd3b918.jpg" class="face left"></img>
+                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_ljS3YUyIhq2F8fCd3rQrMvkK1SVnRXJzPJUuEh-IP8kg=s160-c-k-c0x00ffffff-no-rj" class="face right"></img>
+                    <img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*oL0hjMQxldCYMKRb0a3yhg.png" class="face top"></img>
+                    <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*6IObaL3ZwFVsyn0dnDE58Q.gif" class="face bottom"></img>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3D Cube -->
+        
+    
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
